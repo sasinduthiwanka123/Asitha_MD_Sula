@@ -1,11 +1,11 @@
-const fs = require('fs');
+6const fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=yzhRCbxT#2wBtJMN71yr7EYa3C4QRAmdC2EdSGnwx63hqXCpZZto' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=iu5xiRrA#O5MCTjPHv_4lHKBUOv7aGdtqueftyb39aS2wTCfWBOI' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
 SUDO: process.env.SUDO === undefined ? '94760663483,94710450435' : process.env.SUDO,
